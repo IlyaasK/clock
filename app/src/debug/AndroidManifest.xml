@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Debug-only components: acceptance-test hooks. Never present in a release build. -->
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application>
+        <receiver
+            android:name=".debug.TestRingReceiver"
+            android:exported="true" />
+        <receiver
+            android:name=".debug.TestCreateReceiver"
+            android:exported="true" />
+        <receiver
+            android:name=".debug.DumpReceiver"
+            android:exported="true" />
+    </application>
+</manifest>

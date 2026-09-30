@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Monochrome clock glyph. Vector only: no PNG mipmaps in the APK. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M0,0h48v48h-48z" />
+    <path
+        android:fillColor="#FF000000"
+        android:fillType="evenOdd"
+        android:pathData="M24,4a20,20 0 1,0 0.001,0zM24,8a16,16 0 1,1 -0.001,0z" />
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M22.5,13h3v11h-3z" />
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M23,22.5h11v3h-11z" />
+</vector>

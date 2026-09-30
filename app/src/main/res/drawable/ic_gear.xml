@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Hand-drawn monochrome gear: four teeth mirrored into eight, on a thick ring.
+     Vector only, so no PNG densities end up in the APK. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <group
+        android:pivotX="12"
+        android:pivotY="12"
+        android:rotation="0">
+        <path
+            android:fillColor="#FF000000"
+            android:pathData="M10.6,1.5h2.8v6.5h-2.8z" />
+    </group>
+    <group
+        android:pivotX="12"
+        android:pivotY="12"
+        android:rotation="45">
+        <path
+            android:fillColor="#FF000000"
+            android:pathData="M10.6,1.5h2.8v6.5h-2.8z" />
+    </group>
+    <group
+        android:pivotX="12"
+        android:pivotY="12"
+        android:rotation="90">
+        <path
+            android:fillColor="#FF000000"
+            android:pathData="M10.6,1.5h2.8v6.5h-2.8z" />
+    </group>
+    <group
+        android:pivotX="12"
+        android:pivotY="12"
+        android:rotation="135">
+        <path
+            android:fillColor="#FF000000"
+            android:pathData="M10.6,1.5h2.8v6.5h-2.8z" />
+    </group>
+    <path
+        android:fillColor="#FF000000"
+        android:fillType="evenOdd"
+        android:pathData="M12,4a8,8 0 1,0 0.001,0zM12,8.6a3.4,3.4 0 1,1 -0.001,0z" />
+</vector>

@@ -1,0 +1,25 @@
+# Build output
+build/
+app/build/
+.gradle/
+local.properties
+*.apk
+!artifacts/*.apk
+*.aab
+captures/
+.cxx/
+
+# IDE
+.idea/
+*.iml
+.kotlin/
+
+# Vendor bytecode from the stock APK audit: kept locally, never published.
+clock-audit/ClockProd.apk
+clock-audit/dex/
+clock-audit/dex_strings.txt
+clock-audit/*.smali
+
+# Session/tooling scratch (not part of the project)
+.toolchain/
+.scratch/
